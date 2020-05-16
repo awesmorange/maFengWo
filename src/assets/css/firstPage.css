@@ -1,0 +1,202 @@
+/********* 板块1 *********/
+
+.container1 {
+  width: auto;
+  height: 380px;
+  background-image: url('../img/firstPage/c1_1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  animation: frams 20s infinite;
+}
+
+@keyframes frams {
+  10% {
+    background-image: url("../img/firstPage/c1_1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+  }
+
+  30% {
+    background-image: url("../img/firstPage/c1_2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+  }
+
+  50% {
+    background-image: url("../img/firstPage/c1_3.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+  }
+
+  70% {
+    background-image: url("../img/firstPage/c1_4.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+  }
+
+  90% {
+    background-image: url("../img/firstPage/c1_5.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+  }
+}
+
+
+/* 标题 */
+
+.title {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+  color: white;
+  float: left;
+}
+
+
+/* 搜索 板块 */
+
+.bottom {
+  width: 700px;
+  height: 120px;
+  color: white;
+  /* 定位于盒子的中下方位置 */
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+
+/* 输入 */
+
+.search {
+  width: 500px;
+  height: 80px;
+  padding: 10px;
+  /* 背景颜色透明度设置 */
+  background-color: rgba(12, 12, 12, 0.6);
+}
+
+
+/* 单选框 */
+
+.radio {
+  margin: 10px;
+  text-align: left;
+}
+
+
+/* 搜索输入区域 */
+
+.search_input {
+  width: 500px;
+  height: 40px;
+  float: left;
+}
+
+
+/* 输入框 */
+
+.input {
+  width: 400px;
+  display: inline-block;
+}
+
+
+/* 搜索图标容器 */
+
+.icon {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background-color: orange;
+}
+
+
+/* 搜索图标 */
+
+.icon>img {
+  width: 35px;
+  height: 35px;
+}
+
+
+/* 图片详情 + 作者 */
+
+.author {
+  margin: 10px;
+  float: left;
+}
+
+
+/* 图片列表展示区域 */
+
+.right {
+  height: 320px;
+  width: 120px;
+  float: right;
+  margin-right: 25px;
+  padding: 30px;
+}
+
+.right>img {
+  height: 50px;
+  width: 100px;
+  margin-top: 5px;
+  border: orange solid 1px;
+}
+
+
+/********* 板块2 *********/
+
+.container2 {
+  width: auto;
+  height: 64px;
+}
+
+.content2 {
+  background-color: #FFFFFF;
+}
+
+.cell {
+  border-radius: 4px;
+  height: 44px;
+  width: 100px;
+  margin: 15px ;
+  background: #e66943;
+  display: inline-block;
+}
+
+/********* 板块3 *********/
+
+.container3 {
+  width: auto;
+  padding: 0 110px;
+}
+
+.container3_1 {
+  width: auto;
+  height: 600px;
+  background-color: dimgrey;
+}
+
+.container3_2 {
+  width: auto;
+  height: 600px;
+  background-color: goldenrod;
+}
+
+/********* 布局样式 *************/
+/* 行样式 */
+.el-row {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+/* 列样式 */
+.el-col {
+  border-radius: 4px;
+}

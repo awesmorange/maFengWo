@@ -3,7 +3,7 @@
         <div class="bar">
             <el-menu :default-active="$route.path" class="el-menu-demo" mode="horizontal" router>
                 <el-menu-item index="1"> 
-                    <img src="../../assets/logo.png" alt="" style="width: 100px;height: 40px;">
+                    <img src="../../assets/img/logo.png" alt="" style="width: 100px;height: 40px;">
                 </el-menu-item>
                 <el-menu-item index="/FirstPage">首页</el-menu-item>
                 <el-menu-item index="2">目的地</el-menu-item>
